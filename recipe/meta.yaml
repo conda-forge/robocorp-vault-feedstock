@@ -1,5 +1,5 @@
 {% set name = "robocorp-vault" %}
-{% set version = "1.3.2" %}
+{% set version = "1.3.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/robocorp_vault-{{ version }}.tar.gz
-  sha256: b77ba9e16270d6542d5ce93b59786f17dc5c443128ed0b1828346253d707f3f7
+  sha256: 99f6e3101a709b310c5abddcb283bca664d834fee41e757547ebc076c9d2fbaf
 
 build:
   noarch: python
